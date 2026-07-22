@@ -1,6 +1,6 @@
 body {
 
-    background-color: #f7efe8;
+    background-color: #E8EEF7;
     font-family: Arial, Helvetica, sans-serif;
     color: #3d3d3d;
     margin: 0;
@@ -19,7 +19,7 @@ h1 {
 
 h2 {
 
-    color: #52796f;
+    color: #34495E;
     font-size: 32px;
 
 }
@@ -34,7 +34,7 @@ h3 {
 
 h4 {
 
-    color: #52796f;
+    color: #34495E;
     line-height: 1.5;
 
 }
@@ -69,7 +69,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-    background-color: #fffaf5;
+    background-color: #FFFFFF;
 
     padding: 20px 50px;
 
@@ -128,7 +128,7 @@ nav a:hover {
 
 .hero button {
 
-    background-color: #8b5e83;
+    background-color: #5B4B8A;
 
     color: white;
 
@@ -162,7 +162,7 @@ nav a:hover {
 .goals,
 .projects {
 
-    background-color: #fffaf5;
+    background-color: #FFFFFF;
 
     padding: 25px;
 
