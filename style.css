@@ -1,51 +1,66 @@
 body {
 
-    background-color: #E8EEF7;
+    background-color: #e8eef7;
+
     font-family: Arial, Helvetica, sans-serif;
-    color: #3d3d3d;
+
+    color: #333333;
+
     margin: 0;
+
     padding: 50px;
 
 }
 
 
+
 h1 {
 
-    color: #3f5266;
+    color: #34495e;
+
     font-size: 48px;
 
 }
 
 
+
 h2 {
 
-    color: #34495E;
+    color: #34495e;
+
     font-size: 32px;
 
 }
 
 
-h3 {
 
-    color: #34495E;
+h3,
+h4 {
+
+    color: #8b5e83;
 
 }
 
 
+
 h4 {
 
-    color: #34495E;
+    font-size: 22px;
+
     line-height: 1.5;
 
 }
 
 
+
 p {
 
     font-size: 18px;
+
     line-height: 1.7;
 
 }
+
 
 
 ul {
@@ -53,6 +68,7 @@ ul {
     font-size: 18px;
 
 }
+
 
 
 li {
@@ -63,13 +79,17 @@ li {
 
 
 
+
+
 nav {
 
     display: flex;
+
     justify-content: space-between;
+
     align-items: center;
 
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 
     padding: 20px 50px;
 
@@ -79,10 +99,22 @@ nav {
 
 
 
+nav h2 {
+
+    font-size: 24px;
+
+    color: #34495e;
+
+}
+
+
+
 nav ul {
 
     display: flex;
+
     list-style: none;
+
     gap: 30px;
 
 }
@@ -92,7 +124,9 @@ nav ul {
 nav a {
 
     text-decoration: none;
-    color: #3f5266;
+
+    color: #34495e;
+
     font-weight: bold;
 
 }
@@ -101,7 +135,7 @@ nav a {
 
 nav a:hover {
 
-    color: #5B4B8A;
+    color: #8b5e83;
 
 }
 
@@ -112,6 +146,7 @@ nav a:hover {
 .hero {
 
     text-align: center;
+
     padding: 80px 20px;
 
 }
@@ -120,7 +155,7 @@ nav a:hover {
 
 .hero h1 {
 
-    font-size: 50px;
+    font-size: 55px;
 
 }
 
@@ -128,7 +163,7 @@ nav a:hover {
 
 .hero button {
 
-    background-color: #5B4B8A;
+    background-color: #5b4b8a;
 
     color: white;
 
@@ -162,21 +197,30 @@ nav a:hover {
 .goals,
 .projects {
 
-    background-color: #FFFFFF;
 
-    padding: 25px;
+    background-color: #ffffff;
+
+
+    padding: 30px;
+
 
     border-radius: 15px;
 
-    border: 1px solid #ead8d0;
+
+    border: 1px solid #d8dfea;
+
 
     max-width: 800px;
 
+
     margin: 40px auto;
+
 
     box-sizing: border-box;
 
+
 }
+
 
 
 
@@ -189,12 +233,13 @@ nav a:hover {
 
 
 
+
 .experience-card,
 .project-card {
 
     padding: 15px 0;
 
-    border-bottom: 1px solid #ead8d0;
+    border-bottom: 1px solid #d8dfea;
 
 }
 
