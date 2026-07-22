@@ -50,7 +50,6 @@ li {
     opacity: 0.8;
 }
 
-
 .about,
 .goals {
     max-width: 800px;
@@ -78,13 +77,11 @@ nav {
     border-radius: 10px;
 }
 
-
 nav ul {
     display: flex;
     list-style: none;
     gap: 30px;
 }
-
 
 nav a {
     text-decoration: none;
@@ -92,7 +89,31 @@ nav a {
     font-weight: bold;
 }
 
-
 nav a:hover {
     color: #4f6d7a;
+}
+.profile {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.profile-card {
+    background-color: #fffaf5;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #f0e0d6;
+}
+
+.profile-card h3 {
+    color: #8b5e83;
+    font-size: 30px;
+}
+
+
+.profile-card h4 {
+    color: #4f6d7a;
+}
+
+.profile-card li {
+    margin-bottom: 8px;
 }
