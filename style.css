@@ -50,14 +50,6 @@ li {
     opacity: 0.8;
 }
 
-.about,
-.goals {
-    max-width: 800px;
-    margin: 40px auto;
-    background-color: white;
-    padding: 30px;
-    border-radius: 12px;
-}
 .project-card {
     background-color: transparent;
     padding: 15px 0;
