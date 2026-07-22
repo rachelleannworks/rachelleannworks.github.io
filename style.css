@@ -59,10 +59,9 @@ li {
     border-radius: 12px;
 }
 .project-card {
-    background-color: white;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 12px;
+    background-color: transparent;
+    padding: 15px 0;
+    border-bottom: 1px solid #f0e0d6;
 }
 
 .project-card h3 {
@@ -123,11 +122,9 @@ nav a:hover {
 }
 
 .experience-card {
-    background-color: #fffaf5;
-    padding: 30px;
-    margin-bottom: 30px;
-    border-radius: 15px;
-    border: 1px solid #f0e0d6;
+    background-color: transparent;
+    padding: 15px 0;
+    border-bottom: 1px solid #f0e0d6;
 }
 
 .experience-card h3 {
@@ -141,4 +138,17 @@ nav a:hover {
 
 .experience-card li {
     margin-bottom: 10px;
+}
+.about,
+.profile,
+.experience,
+.goals,
+.projects {
+    background-color: #fffaf5;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #f0e0d6;
+    max-width: 800px;
+    margin: 40px auto;
+    box-sizing: border-box;
 }
